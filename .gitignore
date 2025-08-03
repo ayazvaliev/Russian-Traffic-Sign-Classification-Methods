@@ -1,0 +1,8 @@
+#venv
+signs_venv/
+
+#archives
+*.zip
+
+#checkpoints
+checkpoints/

@@ -1,0 +1,6 @@
+resize_ratio_bounds: [0.6, 1.2]
+pad_ratio_bounds: [0, 0.15]
+saturation_bounds: [0.8, 1.1]
+brightness_bounds: [0.8, 1.1]
+angle_bounds: [-15, 16]
+gauss_blur_sigma: 2
