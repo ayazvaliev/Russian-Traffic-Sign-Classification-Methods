@@ -68,7 +68,6 @@ class CustomNetwork(LightningModule):
             {
                 'classification': nn.Sequential(
                     nn.Linear(internal_features, config.CLASSES_CNT),
-                    nn.Softmax(dim=-1)
                 ),
                 'extraction': nn.Sequential(
                     nn.Linear(internal_features, internal_features),
